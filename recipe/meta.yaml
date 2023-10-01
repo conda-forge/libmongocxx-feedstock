@@ -10,7 +10,7 @@ source:
   sha256: bc0f5193a8184db47a75685b58acd484b0e489eb0476b4d931d1bf4f5fc2186e
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage(name, max_pin='x.x') }}
 
@@ -21,7 +21,7 @@ requirements:
     - cmake
     - ninja
   host:
-    - boost-cpp
+    - libboost-headers
     - libbson
     - libmongoc
 
