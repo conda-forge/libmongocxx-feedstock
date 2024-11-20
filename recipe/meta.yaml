@@ -32,8 +32,8 @@ test:
     - test -f ${PREFIX}/lib/pkgconfig/libmongocxx.pc         # [unix]
     - test -f ${PREFIX}/lib/libmongocxx${SHLIB_EXT}          # [unix]
     - if not exist %LIBRARY_INC%\mongocxx\v_noabi\mongocxx\client.hpp (exit 1)     # [win]
-    - if not exist %LIBRARY_LIB%\mongocxx-v_noabi-rhb-md.lib (exit 1)    # [win]
-    - if not exist %LIBRARY_BIN%\mongocxx-v_noabi-rhb-md.dll (exit 1)    # [win]
+    - if not exist %LIBRARY_LIB%\mongocxx-v_noabi-rhi-md.lib (exit 1)    # [win]
+    - if not exist %LIBRARY_BIN%\mongocxx-v_noabi-rhi-md.dll (exit 1)    # [win]
 
 about:
   home: https://github.com/mongodb/mongo-cxx-driver
