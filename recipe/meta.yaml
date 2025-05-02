@@ -19,7 +19,7 @@ requirements:
     - {{ compiler('cxx') }}
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
-    - cmake
+    - cmake <4
     - ninja
   host:
     - libboost-headers
