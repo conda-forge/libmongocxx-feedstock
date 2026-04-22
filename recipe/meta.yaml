@@ -1,5 +1,5 @@
 {% set name = "libmongocxx" %}
-{% set version = "4.2.0" %}
+{% set version = "4.3.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mongodb/mongo-cxx-driver/releases/download/r{{ version }}/mongo-cxx-driver-r{{ version }}.tar.gz
-  sha256: 391c321891d512543e35f2a1889972384df52d4e030fc3a6a6751bd6bf75bc92
+  sha256: 64722a58ff4b8b9c248cb85225ebe6c59fa6264fb97716b470858ebab8271c11
 
 build:
   number: 0
